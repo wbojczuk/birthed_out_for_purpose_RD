@@ -1,0 +1,33 @@
+.bibleVerse{
+    position: relative;
+    display: flex;
+    padding: var(--section-padding-top) 10% calc(var(--section-padding-top) * 2) 10%;
+    color: var(--secondary-text-color);
+    align-items: flex-start;
+    justify-content: flex-end;
+    font-family: var(--secondary-font);
+    font-style: italic;
+}
+
+.bibleVerse p{
+    width: 60%;
+    font-size: 2rem;
+    line-height: 180%;
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    .bibleVerse p{
+        width: 80%;
+    }
+}
+ 
+/* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    .bibleVerse{
+        padding: var(--section-padding-top) 5% calc(var(--section-padding-top) * 2.5) 5%;
+    }
+    .bibleVerse p{
+        width: 100%;
+    }
+}

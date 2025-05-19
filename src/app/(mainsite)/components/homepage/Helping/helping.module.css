@@ -1,0 +1,45 @@
+.helping{
+    position: relative;
+    padding: var(--section-padding-top) 10%;
+    color: white;
+    
+}
+
+.helping h2{
+    font-size: 4.5rem;
+    font-family: var(--secondary-font);
+}
+
+.helping p{
+    width: 35%;
+    margin: 2.5vw 0;
+    font-size: 1.6rem;
+    line-height: 140%;
+}
+
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+.helping p{
+        width: 50%;
+    }
+}
+
+ /* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    
+    .helping h2{
+        font-size: 3.8rem;
+    }
+    
+    .helping p{
+        width: 60%;
+        margin-top: 3vw;
+        font-size: 1.4rem;
+    }
+      
+}
