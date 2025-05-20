@@ -1,10 +1,10 @@
-import ContactInfo from "@/app/(mainsite)/components/contactpage/ContactInfo/ContactInfo"
 import PageTitle from "@/app/(mainsite)/components/misc/PageTitle/PageTitle"
+import Volunteer from "@/app/(mainsite)/components/volunteerpage/Volunteer/Volunteer"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-	  title: `Contact | ${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
-	  description: `Contact | ${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
+	  title: `Volunteer | ${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
+	  description: `Volunteer | ${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 openGraph: {
 title: `${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
 description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
@@ -25,11 +25,11 @@ description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 }
 }
 
-export default function ContactPage(){
+export default function VolunteerPage(){
 	 return(
 	 	 <>
-			<PageTitle title="Contact" subtitle="We’d love to hear from you — reach out today and let’s walk this journey of purpose together." />
-			<ContactInfo />
+			<PageTitle noButton title="Volunteer" subtitle="Join Us in Making a Difference" />
+			<Volunteer />
 	 	 </>
 	 )
 }

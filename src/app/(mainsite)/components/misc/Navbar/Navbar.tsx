@@ -21,6 +21,8 @@ export default function Navbar() {
   const homeRef: any = useRef()
   const aboutRef: any = useRef()
   const contactRef: any = useRef()
+  const programsRef: any = useRef()
+  const volunteerRef: any = useRef()
 
   const hamburgerRef: any = useRef()
   const contentRef: any = useRef()
@@ -43,6 +45,14 @@ export default function Navbar() {
     {
       triggers: ["/contact"],
       ref: contactRef
+    },
+    {
+      triggers: ["/programs"],
+      ref: programsRef
+    },
+    {
+      triggers: ["/volunteer"],
+      ref: volunteerRef
     }
     
   ]
@@ -168,6 +178,16 @@ export default function Navbar() {
           url="/about"
           ref={aboutRef}
           />
+          <NavOption
+          title="Programs"
+          url="/programs"
+          ref={programsRef}
+          />
+          <NavOption
+          title="Volunteer"
+          url="/volunteer"
+          ref={volunteerRef}
+          />
 
           <NavOption
           title="Contact"
@@ -176,9 +196,9 @@ export default function Navbar() {
           />
 
           
-          <a href="" target="_blank" className={styles.cta}>
+          <Link href="/donate" className={styles.cta}>
             <span>Donate</span>
-          </a>
+          </Link>
           
 
           </ul>

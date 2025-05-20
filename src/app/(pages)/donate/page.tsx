@@ -1,10 +1,11 @@
-import ContactInfo from "@/app/(mainsite)/components/contactpage/ContactInfo/ContactInfo"
+import Donate from "@/app/(mainsite)/components/donatepage/Donate/Donate"
+import BibleVerse from "@/app/(mainsite)/components/homepage/BibleVerse/BibleVerse"
 import PageTitle from "@/app/(mainsite)/components/misc/PageTitle/PageTitle"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-	  title: `Contact | ${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
-	  description: `Contact | ${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
+	  title: `Donate | ${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
+	  description: `Donate | ${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 openGraph: {
 title: `${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
 description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
@@ -25,11 +26,12 @@ description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 }
 }
 
-export default function ContactPage(){
+export default function DonatePage(){
 	 return(
 	 	 <>
-			<PageTitle title="Contact" subtitle="We’d love to hear from you — reach out today and let’s walk this journey of purpose together." />
-			<ContactInfo />
+			<PageTitle title="Donate" subtitle="Your contributions ensure future teens can get help they need" noButton />
+			<Donate />
+			<BibleVerse />
 	 	 </>
 	 )
 }
