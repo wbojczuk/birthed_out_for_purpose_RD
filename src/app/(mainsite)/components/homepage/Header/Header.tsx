@@ -20,7 +20,7 @@ return (
         </a>
     </div>
  
-    <img src='/img/header.png' alt='Image of happy people' className='bg-img' />
+    <img src='/img/header.webp' alt='Image of happy people' className='bg-img' />
     <div className='shader'></div>
  </header>
 )};

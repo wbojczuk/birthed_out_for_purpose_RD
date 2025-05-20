@@ -6,7 +6,7 @@ export default function AboutContent() {
   return (
     <section className={styles.section}>
         <div className={styles.imgWrapper}>
-            <img className={styles.img} src={"/img/aboutus.png"} width={360} height={600} alt="Image of teens" />
+            <img className={styles.img} src={"/img/aboutus.webp"} width={360} height={600} alt="Image of teens" />
             <div className="shader" style={{zIndex: "1", backgroundColor: "var(--primary-color)", opacity: 0.46}}></div>
         </div>
         
@@ -21,7 +21,7 @@ We offer mentoring, life-skills workshops, encouragement, and spiritual support 
             <a href="/contact" className="main-link">Contact Us</a>
         </div>
 
-        <img src="/img/cross.png" alt="image of the cross" className="bg-img" />
+        <img src="/img/cross.webp" alt="image of the cross" className="bg-img" />
         <div className="shader" style={{backgroundColor: "rgba(255,255,255,.95)"}}></div>
     </section>
   )

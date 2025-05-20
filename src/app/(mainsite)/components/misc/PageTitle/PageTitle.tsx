@@ -10,7 +10,7 @@ export default function PageTitle(props: {title: string, subtitle: string, noBut
           {(!(props.noButton)) && <Link className="main-link" href="/contact">Donate</Link>}
         </div>
 
-        <img src="/img/page-title-bg.png" className="bg-img" aria-hidden />
+        <img src="/img/page-title-bg.webp" className="bg-img" aria-hidden />
         <div style={{backgroundColor: "rgba(64,18,72,0.81)"}} className="shader"></div>
     </header>
   )

@@ -6,7 +6,7 @@ export default function Mission() {
   return (
     <section className={styles.section}>
         <div className={styles.imgWrapper}>
-            <img id="ourMission" className={styles.img} src={"/img/mission.png"} width={360} height={600} alt="Image of happy teens" />
+            <img id="ourMission" className={styles.img} src={"/img/mission.webp"} width={360} height={600} alt="Image of happy teens" />
         </div>
         
 
@@ -20,7 +20,7 @@ Through mentorship, life-skills training, creative expression, and faith-based e
             <Link href="/contact" className="main-link">Contact Us</Link>
         </div>
 
-        <img src="/img/cross.png" alt="image of the cross" className="bg-img" />
+        <img src="/img/cross.webp" alt="image of the cross" className="bg-img" />
         <div className="shader" style={{backgroundColor: "rgba(255,255,255,.95)"}}></div>
     </section>
   )

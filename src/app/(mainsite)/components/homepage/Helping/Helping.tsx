@@ -10,7 +10,7 @@ return (
 
     <a href="" target='_blank' className="main-link">Donate</a>
  
-    <img style={{objectPosition: "top"}} src='/img/helping.png' alt='Image of Teens' className='bg-img' />
+    <img style={{objectPosition: "top"}} src='/img/helping.webp' alt='Image of Teens' className='bg-img' />
     <div className='gradient-shader'></div>
  </div>
 )};

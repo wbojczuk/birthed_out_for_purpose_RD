@@ -15,11 +15,11 @@ Together, we can restore what’s been broken and help others rise.</p>
 <Link href="/contact" className='main-link'>Contact Us</Link>
     </div>
     <div className={styles.videoWrapper}>
-        <img src="/img/donate.png" alt="image of a plant" />
+        <img src="/img/donate.webp" alt="image of a plant" />
         <Shader background='#CF3AE9' opacity={.35} zIndex={1} />
     </div>
 
-    <img src="/img/ourbook-bg.png" aria-hidden className="bg-img" />
+    <img src="/img/ourbook-bg.webp" aria-hidden className="bg-img" />
     <div className="shader" style={{backgroundColor: "rgba(255,255,255,.88)"}}></div>
  </div>
  </>

@@ -21,11 +21,11 @@ export default function ContactInfo() {
               <a href={`tel:${process.env.NEXT_PUBLIC_PHONE_NUM}`}>{process.env.NEXT_PUBLIC_PHONE_NUM_FORMATTED}</a>
             </div>
 
-            <img src="/img/contact.png" alt="image of cross" className="bg-img" />
+            <img src="/img/contact.webp" alt="image of cross" className="bg-img" />
             <Shader background="var(--primary-color-dark)" opacity={0.8}  />
         </div>
         
-          <img style={{zIndex: -4}} src='/img/contact2.png' alt='Image of sunset' className='bg-img' />
+          <img style={{zIndex: -4}} src='/img/contact2.webp' alt='Image of sunset' className='bg-img' />
          <Shader background="rgb(249,249,249)" opacity={.82} zIndex={-3} />
     </section>
   )

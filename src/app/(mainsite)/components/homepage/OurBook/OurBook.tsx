@@ -13,10 +13,10 @@ More than a testimony, it’s a tool to help readers realize they are not broken
 <a href="" className='main-link'>Get Book</a>
     </div>
     <div className={styles.videoWrapper}>
-   <img src="/img/bookcover.png" alt="image of a book cover" />
+   <img src="/img/bookcover.webp" alt="image of a book cover" />
     </div>
 
-    <img src="/img/ourbook-bg.png" aria-hidden className="bg-img" />
+    <img src="/img/ourbook-bg.webp" aria-hidden className="bg-img" />
     <div className="shader" style={{backgroundColor: "rgba(255,255,255,.88)"}}></div>
  </div>
  </>

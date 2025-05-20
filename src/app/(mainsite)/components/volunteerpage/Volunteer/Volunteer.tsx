@@ -15,11 +15,11 @@ If you’re ready to serve with compassion and purpose, we’d love to connect w
 <Link href="/contact" className='main-link'>Contact Us</Link>
     </div>
     <div className={styles.videoWrapper}>
-        <img src="/img/volunteer.png" alt="image of hands" />
+        <img src="/img/volunteer.webp" alt="image of hands" />
         <Shader background='#CF3AE9' opacity={.35} zIndex={1} />
     </div>
 
-    <img src="/img/ourbook-bg.png" aria-hidden className="bg-img" />
+    <img src="/img/ourbook-bg.webp" aria-hidden className="bg-img" />
     <div className="shader" style={{backgroundColor: "rgba(255,255,255,.88)"}}></div>
  </div>
  </>
