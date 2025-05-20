@@ -12,7 +12,7 @@ return (
 <br /><br />
 Together, we can restore what’s been broken and help others rise.</p>
 <br /><br />
-<Link href="/contact" className='main-link'>Contact Us</Link>
+<Link href="#" className='main-link'>Coming Soon!</Link>
     </div>
     <div className={styles.videoWrapper}>
         <img src="/img/donate.webp" alt="image of a plant" />
