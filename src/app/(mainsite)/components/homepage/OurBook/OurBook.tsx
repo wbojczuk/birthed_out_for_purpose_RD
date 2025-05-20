@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './ourbook.module.css';
 
 export default function OurBook(){
@@ -10,7 +11,7 @@ return (
 <br /><br />
 More than a testimony, it’s a tool to help readers realize they are not broken — they are becoming. Their story doesn’t end with what happened to them — it begins with what’s being birthed from them.</p>
 <br /><br />
-<a href="" className='main-link'>Get Book</a>
+<Link href="/contact" className='main-link'>Contact Us</Link>
     </div>
     <div className={styles.videoWrapper}>
    <img src="/img/bookcover.webp" alt="image of a book cover" />
